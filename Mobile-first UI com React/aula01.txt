@@ -1,0 +1,25 @@
+Flexbox
+
+Conceitos Básicos - Direção, eixo, layouts básicos.
+
+Direção - Um flex container tem uma direction, definida pela propriedade flex-direction. Pode ser um row (horizontal) ou column (vertical).
+
+row -> eixo x
+column -> eixo y
+
+Existem quatro valores para a propriedade flex-direction:
+
+1. row (na ordem de escrita)
+2. row-reverse (ao contrário)
+3. column (de cima para baixo)
+4. column-reverse (de baixo para cima)
+
+Eixo: Conceito do eixo. O eixo principal aponta ao longo da direção especificada em flex-direction, e o eixo transversal aponta perpendicularmente a ele.
+
+Por exemplo, se flex-direction for definido como row, o eixo principal vai horizontalmente da esquerda para a direita, e o eixo transversal vai verticalmente de cima para baixo.
+
+main axis e cross axis 
+
+
+
+

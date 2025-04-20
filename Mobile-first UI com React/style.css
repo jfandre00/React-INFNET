@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0; /* vamos assumir o controle dos espaçamentos */
+    box-sizing: border-box; /* para que o padding e o border sejam considerados no tamanho total do elemento */
+}
+
+#pai{
+    width: 100vw; /* largura total da tela */
+    height: 100vh; /* altura total da tela */
+    border: 3px solid indigo;
+    display: flex; /* para que os filhos sejam flexíveis - define que os elementos filhos irão receber a herança forçada do pai */
+    flex-direction: row; /* por padrão é row, eixo principal */
+    justify-content: center; /* alinha os filhos no eixo principal (horizontal) */
+    flex-wrap: nowrap; /* se você vai trabalhar com uma linha única ou com várias linhas */
+    align-items: center; /* alinha os filhos no eixo transversal (vertical) */
+    gap: 10px; /* espaçamento entre os filhos */
+    align-content: center;
+
+}
+
+.box{
+    border: 1px solid steelblue;
+    width: 250px;
+    height: 250px;
+    background-color: lightsteelblue;
+}
+
