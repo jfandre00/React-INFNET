@@ -1,0 +1,73 @@
+button {
+    padding: 8px;
+}
+
+@media(prefers-color-scheme: dark) {
+    body {
+        background-color: #222;
+        color: #eee;
+    }
+}
+
+
+
+
+@media (pointer: coarse) { /* For touch devices, o toque com dedo é mais grosseiro, precisamos deixar um espaço a mais usando o padding */
+    button{
+        padding: 16px 24px;    
+    }
+}
+
+@media (pointer: fine) { /* Para dispositivos com mouse, o toque é mais fino, podemos usar um padding menor */
+    button:hover{
+        background-color: steelblue;
+        color: white; 
+    }
+}
+
+@media (hover) {
+    /* Similar ao funcionamento do pointer, mas para hover */
+}
+
+@media (hover: none) {
+    /* Similar ao funcionamento do pointer coarse, mas para hover */
+}
+
+@media(any-hover: none) {
+    /* qualquer dispositivo com capacidade para funcionar o hover */
+}
+
+@media(any-hover: hover) {
+    /* qualquer dispositivo que seja grosseiro em qq dos seus apontadore, primário ou secundário */
+}
+
+
+@media (max-width: 192px) and (max-height: 192px) {
+    body {
+        background-color: #ff0000;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) and (orientation: portrait) {
+    body {
+        background-color: #b3c215;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: #ba23ab;
+    }
+    
+}
+
+/* @media screen and (min-width: 576px) {
+
+} */
+
+@media (orientation: landscape) and (aspect-ratio: 16/9) {
+    body {
+        background-color: #00ff00;
+    }
+}

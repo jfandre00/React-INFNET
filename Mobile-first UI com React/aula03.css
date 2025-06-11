@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* ajuda a manter o tamanho dos elementos consistente */
+    font-family: sans-serif; /* define a fonte padrão para o documento */
+    /* reset básico de CSS */
+}
+
+#container{
+    width: 100vw; /* largura do container é 100% da largura da viewport */
+    height: 100vh; /* altura do container é 100% da altura da viewport */
+    /* border: 3px solid red; */
+    outline: 3px solid red; /* contorno do container */
+
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px 200px; */
+    /* grid-template-columns: repeat(4, 200px);  */
+    grid-template-columns: repeat(3, minmax(200px, 1fr)); /* cria 3 colunas com largura mínima de 200px e máxima de 1fr */
+    grid-template-rows: auto 1fr auto; /* cria 3 linhas, a primeira e a última com altura automática e a do meio ocupando o restante do espaço disponível */
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+
+    gap: 10px; /* espaço entre os itens do grid */
+    justify-items: center; 
+    align-items: center;
+    /* place-items: end center;  */
+    justify-content: center; /* centraliza o conteúdo do grid horizontalmente */
+    align-content: center; /* centraliza o conteúdo do grid verticalmente */
+    /* place-content: center center; */
+}
+.header{
+    background-color: cadetblue;
+    grid-area: header;
+    justify-self: stretch; /* estica o item para ocupar toda a largura da célula */
+    align-self: stretch; /* estica o item para ocupar toda a altura da célula */
+}
+.sidebar{
+    background-color: darkslategray;
+    grid-area: sidebar;
+    justify-self: stretch; /* estica o item para ocupar toda a largura da célula */
+    align-self: stretch; /* estica o item para ocupar toda a altura da célula */
+}
+.main{
+    background-color: steelblue;
+    grid-area: main;
+    justify-self: stretch; /* estica o item para ocupar toda a largura da célula */
+    align-self: stretch; /* estica o item para ocupar toda a altura da célula */
+}
+.footer{
+    background-color: violet;
+    grid-area: footer;
+    justify-self: stretch; /* estica o item para ocupar toda a largura da célula */
+    align-self: stretch; /* estica o item para ocupar toda a altura da célula */
+}
+.item{
+    background-color: steelblue;
+    border: 1px solid indigo;
+    width: 200px;
+    height: 200px;
+}

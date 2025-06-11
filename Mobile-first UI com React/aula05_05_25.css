@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile-first - 375px */
+body{
+    background-color: antiquewhite;
+}
+
+
+/* De 576px a 768px */
+@media (min-width: 576px) {
+    body{
+        background-color: rgb(24, 214, 77);
+    }
+}
+
+/* De 768px a 992px */
+@media (min-width: 768px) {
+    body{
+        background-color: lightblue;
+    }
+}
+
+/* De 992px a 1200px - Notebook e Desktops pequenos */
+@media (min-width: 992px) {
+    body{
+        background-color: rgb(195, 173, 230);
+    }
+}
+
+/* De 1200px a 1440px */
+@media (min-width: 1200px) {
+    body{
+        background-color: rgb(209, 18, 85);
+    }
+}
