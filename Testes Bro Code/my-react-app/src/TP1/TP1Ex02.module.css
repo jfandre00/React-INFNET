@@ -1,0 +1,19 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  margin-bottom: 16px;
+}
+
+.timeline {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.timeline li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+

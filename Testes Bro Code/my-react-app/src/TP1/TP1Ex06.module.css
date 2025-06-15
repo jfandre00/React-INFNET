@@ -1,0 +1,22 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.h1Ex06 {
+  margin-bottom: 16px;
+}
+
+.h2Ex06 {
+  margin: 20px;
+}
+
+.paragrafo {
+  margin: 8px 0;
+}
+
+.lista {
+  list-style-type: none;
+  margin: 10px;
+}
+

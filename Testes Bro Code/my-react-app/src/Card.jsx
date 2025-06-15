@@ -1,4 +1,6 @@
 import logoandre from './assets/logoandre.png';
+import './Card.css';
+
 
 function Card(){
     return(

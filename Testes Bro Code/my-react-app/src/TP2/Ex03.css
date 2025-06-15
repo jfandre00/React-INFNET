@@ -1,0 +1,39 @@
+.container-ex03 {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 228, 196, 0.175);
+    width: 300px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.avaliacao {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.estrelas {
+  margin-right: 10px;
+}
+
+.estrela {
+  font-size: 20px;
+  margin-right: 2px;
+}
+
+.vermelha {
+  color: red;
+}
+
+.cinza {
+  color: lightgray;
+}
+
+.titulo {
+  font-weight: bold;
+}

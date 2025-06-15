@@ -1,0 +1,23 @@
+.container-ex04 {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.avaliacao {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.estrelas {
+  margin-right: 10px;
+}
+
+.estrela {
+  font-size: 20px;
+  margin-right: 2px;
+}
+
+.titulo {
+  font-weight: bold;
+}

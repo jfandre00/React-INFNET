@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;  
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  
+}
+
+h1 {
+  margin-bottom: 16px;
+  color: navy;
+}
+
+
+p {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
