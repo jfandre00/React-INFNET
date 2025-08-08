@@ -1,0 +1,29 @@
+.container-ex06 {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.departamento {
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.departamento h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.departamento ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.departamento li {
+  margin-bottom: 5px;
+}

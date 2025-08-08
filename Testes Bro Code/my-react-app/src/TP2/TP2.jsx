@@ -4,6 +4,8 @@ import Ex02 from "../TP2/TP2Ex02.jsx";
 import Ex03 from "../TP2/TP2Ex03.jsx";
 import Ex04 from "../TP2/TP2Ex04.jsx";
 import Ex05 from "../TP2/TP2Ex05.jsx";
+import Ex06 from "../TP2/TP2Ex06.jsx";
+import Ex07 from "../TP2/TP2Ex07.jsx";
 
 export default function TP2() {
   const [pagina, setPagina] = useState("menu"); // Estado para controlar a página atual, menu é a página inicial
@@ -14,8 +16,8 @@ export default function TP2() {
     ex3: <Ex03 voltar={() => setPagina("menu")} />,
     ex4: <Ex04 voltar={() => setPagina("menu")} />,
     ex5: <Ex05 voltar={() => setPagina("menu")} />,
-    // ex6: <Ex06 voltar={() => setPagina("menu")} />,
-    // ex7: <Ex07 voltar={() => setPagina("menu")} />,
+    ex6: <Ex06 voltar={() => setPagina("menu")} />,
+    ex7: <Ex07 voltar={() => setPagina("menu")} />,
     // ex8: <Ex08 voltar={() => setPagina("menu")} />,
     // ex9: <Ex09 voltar={() => setPagina("menu")} />,
     // ex10: <Ex10 voltar={() => setPagina("menu")} />,
