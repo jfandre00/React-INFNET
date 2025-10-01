@@ -30,6 +30,7 @@ import Welcome_Novo from './InfnetExtras/Welcome_Novo.jsx';
 import Menu from './InfnetExtras/Menu.jsx';
 import ProductList_Novo from './InfnetExtras/ProductList_Novo.jsx';
 import TaskList from './InfnetExtras/TaskList.jsx';
+import FormularioReactHookForm from './FormularioReactHookForm.jsx';
 
 
 export default function App() {
@@ -194,8 +195,9 @@ export default function App() {
 
         {/* <ProductList_Novo products={productsData} /> */}
 
+        {/* <TaskList /> */}
 
-        <TaskList />
+        <FormularioReactHookForm />
       </>
     );
 }
